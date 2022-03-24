@@ -32,9 +32,13 @@
     }
     elseif($Nilai >=100 && $Nilai <=999){
         echo "<h2>Hasil : Ratusan</h2>";
+        
     }
     elseif($Nilai >=1000){
         echo "<h2>Hasil : Anda Menginput Melebihi Limit Bilangan</h2>";
+    }
+    elseif($Nilai <0 ){
+        echo "<h2>Hasil : INPUTAN SALAH </h2>";
     }
     
     ?>
